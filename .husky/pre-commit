@@ -10,7 +10,7 @@ npm run check-format ||
     false;
 }
 
-Check ESlint
+# Check ESlint
 npm run check-lint || 
 {
     echo "ESlint Check Failed. Make the required changes listed above, add changes and try to commit again"
