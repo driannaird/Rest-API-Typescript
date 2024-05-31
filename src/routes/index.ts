@@ -9,8 +9,8 @@ const _routes: Array<[string, Router]> = [
   ['/health', HealthRouter],
   ['/product', ProductRouter],
   ['/siswa', SiswaRouter],
-  ['/auth', UserRouter],
-  ['/task', TaskRouter]
+  ['/auth', UserRouter]
+  // ['/task', TaskRouter]
 ]
 
 export const routes = (app: Application) => {
